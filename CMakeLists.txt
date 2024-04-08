@@ -34,6 +34,9 @@ target_include_directories(hal PRIVATE "${cmsis_INCLUDE_DIRS}")
 target_sources(hal PUBLIC
     FILE_SET HEADERS BASE_DIRS "${HAL_INCLUDE_DIR}"
     FILES
+        "${HAL_INCLUDE_DIR}/Legacy/stm32f4xx_hal_can_legacy.h"
+        "${HAL_INCLUDE_DIR}/Legacy/stm32f4xx_hal_eth_legacy.h"
+        "${HAL_INCLUDE_DIR}/Legacy/stm32_hal_legacy.h"
         "${HAL_INCLUDE_DIR}/stm32_assert_template.h"
         "${HAL_INCLUDE_DIR}/stm32f4xx_hal_adc_ex.h"
         "${HAL_INCLUDE_DIR}/stm32f4xx_hal_adc.h"
