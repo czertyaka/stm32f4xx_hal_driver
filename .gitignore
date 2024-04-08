@@ -1,0 +1,5 @@
+build
+CMakeUserPresets.json
+test_package/build
+test_package/CMakeUserPresets.json
+Inc/stm32f4xx_hal_conf.h
